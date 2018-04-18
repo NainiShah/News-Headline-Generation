@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>News Headline Generation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .mainForm
+      {
+          margin-top: 10%
+      }
+    
+  </style>    
+</head>
+<body>
+
+<div class="container">
+    <div class="mainForm">
+        <form>
+          <div class="form-group">
+            <label for="newsTitleInput">News Title</label>
+            <input type="text" class="form-control" id="titleText" placeholder="Enter news title">
+          </div>
+
+          <div class="form-group">
+            <label for="newsBodyInput">News Body</label>
+            <textarea class="form-control" id="newsBodyTextarea" rows="10"></textarea>
+          </div>
+    
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <br> <br> <br>
+          <div class="form-group">
+            <label for="generatedTitleInput">Generated Title</label>
+            <label for="generatedTitleOutput"> Output </label>
+          </div>  
+    
+          <div class="form-group">
+            <label for="cosineSimilarityInput">Cosine Similarity</label>
+            <label for="cosineSimilarityOutput"> Output </label>
+          </div>   
+        </form>    
+    
+    </div>    
+</div>
+    
+</body>
+</html>
