@@ -1,3 +1,5 @@
+data/output_cleaned_body.csv
+data/output_cleaned_title.csv
 data/dict.csv
 data/articles_small.csv
 data/articles1.csv
