@@ -10,39 +10,32 @@
   <style>
   .mainForm
       {
-          margin-top: 10%
+          margin-top: 5%
       }
     
   </style>    
 </head>
-<body>
+<body background="news.jpg">
 
 <div class="container">
     <div class="mainForm">
-        <form>
+        <form action="/result" method="post">
           <div class="form-group">
             <label for="newsTitleInput">News Title</label>
-            <input type="text" class="form-control" id="titleText" placeholder="Enter news title">
+            <input type="text" name="newstitle" class="form-control" id="titleText" placeholder="Enter news title">
           </div>
 
           <div class="form-group">
             <label for="newsBodyInput">News Body</label>
-            <textarea class="form-control" id="newsBodyTextarea" rows="10"></textarea>
+            <textarea class="form-control" name="newsbody" id="newsBodyTextarea" rows="10"></textarea>
           </div>
     
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" value="submit" class="btn btn-primary">Submit</button>
           <br> <br> <br>
-          <div class="form-group">
-            <label for="generatedTitleInput">Generated Title</label>
-            <label for="generatedTitleOutput"> Output </label>
-          </div>  
-    
-          <div class="form-group">
-            <label for="cosineSimilarityInput">Cosine Similarity</label>
-            <label for="cosineSimilarityOutput"> Output </label>
-          </div>   
+          
+
         </form>    
-    
+                        {% block body %}{% endblock %}   
     </div>    
 </div>
     

@@ -1,0 +1,25 @@
+{% extends "index.html" %}
+{% block body %}          
+
+
+<table class="table table-bordered table-striped">
+         {% for key, value in result.items() %}
+         
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+            
+         {% endfor %}
+            <tr>
+               <th> Generated Title </th>
+               <td> {{gen_title}} </td>
+            </tr>
+            <tr>
+               <th> Cosine Simalrity </th>
+               <td> {{cosine}} </td>
+            </tr>
+
+      </table>
+
+{% endblock %}
