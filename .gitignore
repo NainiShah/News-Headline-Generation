@@ -8,4 +8,5 @@ data/articles3.csv
 data/output.csv
 data/glove.6B.100d.txt.word2vec
 data/glove.6B.100d.txt
+data/tokenized_data.pickle
 
