@@ -1,0 +1,13 @@
+data/output_cleaned_body.csv
+data/output_cleaned_title.csv
+data/dict.csv
+data/articles_small.csv
+data/articles1.csv
+data/articles.csv
+data/articles2.csv
+data/articles3.csv
+data/output.csv
+data/glove.6B.100d.txt.word2vec
+data/glove.6B.100d.txt
+data/tokenized_data.pickle
+
