@@ -11,7 +11,7 @@ Neural networks are computations heavy, GPU configuration is recommended.
 
 ### Data
 We have used [All the news dataset from kaggle](https://www.kaggle.com/snapcrack/all-the-news/data)
-Extract only title and content from the dataset. Later, we tokenized the title and content saved it as a pickle file. We divided our data set into train, validation and test sets
+Extract only title and content from the dataset. Later, we tokenized the title,content and saved it as a pickle file. We divided our data set into train, validation and test sets respectively.
 
 ## Train / test
 Train() method inside “ ” notebook describes how the model is trained using Keras
